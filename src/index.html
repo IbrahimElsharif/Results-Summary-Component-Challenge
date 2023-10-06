@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../dist/output.css">
+    <link rel="icon" href="../images/favicon-32x32.png">
+    <title>Document</title>
+</head>
+<body class="bg-slate-100 font-hankenGrotesk">
+    <!-- Container -->
+    <div class="container flex mx-auto rounded-3xl w-2xl max-w-3xl mt-32 bg-white mobile:flex-col mobile:my-0">
+        <!-- The Result Section -->
+        <div class="flex flex-col w-1/2 bg-gradient-to-t from-lightRoyalBlue to-lightSlateBlue rounded-3xl mobile:w-full mobile:h-full mobile:rounded-b-3xl mobile:rounded-t-none">
+            <h1 class="text-center mt-6 font-bold text-xl text-paleBlue">Your Result</h1>
+            <!-- Result Circle -->
+            <div class="text-center mx-auto mt-7 w-40 h-40 rounded-full bg-gradient-to-t from-presianBlue to-violetBlue">
+                <h2 class="text-white font-bold pt-11 text-6xl align-middle">76</h2>
+                <p class="text-lightLavender font-semibold text-lg pt-2">of 100</p>
+            </div>
+            <!---->
+            <div class="text-center py-4">
+                <h2 class="mb-4 text-3xl font-bold text-white">Great</h2>
+                <p class="px-10 text-lg text-lightLavender pb-4">You scored higher than 65% of the people who have taken these tests.</p>
+            </div>
+        </div>
+        
+        <!-- Summary Section -->
+        <div class="flex flex-col mx-8 md:w-1/2">
+            <h1 class="mt-6 mb-3 font-bold text-xl">Summary</h1>
+            <!-- Scores -->
+            <div class="flex flex-col mt-2 space-y-4">
+                <div class="bg-lightRedTrans py-3 rounded-xl w-auto ">
+                    <img src="\images\icon-reaction.svg" class="float-left mx-3 mt-1" alt="">
+                    <p class="text-lightRed text-lg float-left">Reaction</p>
+                    <p class="float-right text-lg text-gray-500 mx-2">/ 100</p>
+                    <p class="float-right text-lg text-darkGrayBlue">80</p>
+                </div>
+                <div class="bg-orangeyYellowTrans py-3 rounded-xl ">
+                    <img src="\images\icon-memory.svg" class="float-left mx-3 mt-1" alt="">
+                    <p class="text-orangeyYellow text-lg float-left">Memory</p>
+                    <p class="float-right text-lg text-gray-500 mx-2">/ 100</p>
+                    <p class="float-right text-lg text-darkGrayBlue">92</p>
+                </div>
+                <div class="bg-greenTealTrans py-3 rounded-xl ">
+                    <img src="\images\icon-verbal.svg" class="float-left mx-3 mt-1" alt="">
+                    <p class="text-greenTeal text-lg float-left">Verbal</p>
+                    <p class="float-right text-lg text-gray-500 mx-2">/ 100</p>
+                    <p class="float-right text-lg text-darkGrayBlue">61</p>
+                </div>
+                <div class="bg-cobaltBlueTrans py-3 rounded-xl ">
+                    <img src="\images\icon-visual.svg" class="float-left mx-3 mt-1" alt="">
+                    <p class="text-cobaltBlue text-lg float-left">Reaction</p>
+                    <p class="float-right text-lg text-gray-500 mx-2">/ 100</p>
+                    <p class="float-right text-lg text-darkGrayBlue">72</p>
+                </div>
+            </div>
+            <!-- Button -->
+            <button class="bg-darkGrayBlue py-3 mt-8 rounded-3xl text-white hover:bg-gradient-to-t from-lightRoyalBlue to-lightSlateBlue">
+                Continue
+            </button>
+        </div>
+    </div>
+</body>
+</html>
